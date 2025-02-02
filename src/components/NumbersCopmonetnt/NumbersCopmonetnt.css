@@ -1,0 +1,83 @@
+.YT-NumbersCopmonetnt{
+    width: 16.66%;
+    padding: 30px 20px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+    text-align: center;
+
+}
+.YT-NumbersCopmonetnt :nth-child(1) ,.YT-NumbersCopmonetntAbout :nth-child(1) , .YT-NumbersCopmonetnContact :nth-child(1){
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: var(--roboto-mono-font);
+    color: var(--text-color);
+}
+.YT-NumbersCopmonetnt :nth-child(2) ,.YT-NumbersCopmonetntAbout :nth-child(2)  , .YT-NumbersCopmonetnContact :nth-child(2){
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 600;
+    font-family: var(--roboto-font);
+    color: var(--other-orange-color);
+}
+/* About page classes */
+.YT-NumbersCopmonetntAbout{
+    width: 48.19%;
+    padding: 30px 20px;
+    border-radius: 14px;
+    background-color: var(--border-color);
+    text-align: center;
+
+}
+/* Contact page classes*/
+.YT-NumbersCopmonetnContact{
+    width: 48.12%;
+    padding: 42px 20px;
+    border-radius: 14px;
+    background-color: var(--border-color);
+    text-align: center;
+
+}
+@media(max-width:1440px){
+    .YT-NumbersCopmonetnt{
+        padding: 20px 16px;
+        border-radius: 12px;
+        
+    }
+    .YT-NumbersCopmonetnt :nth-child(1) , .YT-NumbersCopmonetntAbout :nth-child(1),.YT-NumbersCopmonetnContact :nth-child(1){
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .YT-NumbersCopmonetnt :nth-child(2) , .YT-NumbersCopmonetntAbout :nth-child(2),.YT-NumbersCopmonetnContact :nth-child(2){
+        font-size: 40px;
+        line-height: 60px;
+    }
+    /* About page classes */
+    .YT-NumbersCopmonetntAbout{
+        padding: 24px 16px;
+        border-radius: 14px;
+        
+    }
+    /*  */
+    .YT-NumbersCopmonetnContact{
+        padding: 46px 16px;
+        border-radius: 12px;
+    }
+}
+@media(max-width:1200px){
+    .YT-NumbersCopmonetnt{
+        width: 48%;
+    }
+}
+@media(max-width:390px){
+    .YT-NumbersCopmonetnt{
+        padding: 16px 14px;
+        
+    }
+      /* About page classes */
+    .YT-NumbersCopmonetntAbout ,.YT-NumbersCopmonetnContact{
+        padding: 16px 14px;
+        border-radius: 12px;
+        
+    }
+}

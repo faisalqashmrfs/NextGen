@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root{
+    /* Colors */
+    --primary-color:#0F0F0F;
+    --secondary-color:#1A1A1A;
+    --orange-color:#CE7D63;
+    --other-orange-color:#DA9E8B;
+    --titles-color:#F9EFEC;
+    --text-color:#B3B3B2;
+    --other-text-color:#676665;
+    --grey-color:#E6E6E6;
+    --absolute-white:#FFFFFF;
+    --hover-color:#E7BEB1;  /*  and arrow color */
+    --other-grey-color:#81807E;
+    --other2-grey-color: #CCCCCC;
+    --input-color :#333333;
+    --shadow-color :#242424;
+    --p-color:#262626;
+    --orange2-color:#F3DFD8;
+    --border-color:#1F1F1F;
+    --buttonicon:#262626;
+    --color-label:#F3DFD8 ;
+    --color-shadow:#0062FF08;
+    --color-checkbox: #404040; 
+    --icon-border:#333333;
+
+    /* Fonts */
+    --roboto-font:"Roboto Flex", serif;
+    --roboto-mono-font:'Roboto Mono',monospace;
+    
+
+}
+body{
+  background-color: var(--primary-color);
+}

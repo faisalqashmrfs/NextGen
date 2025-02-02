@@ -1,0 +1,66 @@
+.YT-HomeHeroRight{
+    width: 32.58%;
+}
+.YT-HomeHeroRightImages{
+    width: 100%;
+    position: relative;
+    background: url(../../assets/images/home-hero-image.png);
+    height: 78.54%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    border-top-left-radius: 14px;
+}
+.YT-HomeHeroRightImages img{
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.YT-HomeHeroRightDesc{
+    width: 100%;
+    padding: 20px;
+    background-color: var(--border-color);
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+.YT-HomeHeroRightDesc :nth-child(1){
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    font-family: var(--roboto-font);
+    color: var(--titles-color);
+    text-transform: uppercase;
+}
+.YT-HomeHeroRightDesc :nth-child(2){
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: var(--roboto-font);
+    color: var(--text-color);
+}
+@media (max-width:1440px) {
+    .YT-HomeHeroRightDesc{
+        padding: 24px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+    .YT-HomeHeroRightDesc :nth-child(1){
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .YT-HomeHeroRightDesc :nth-child(2){
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .YT-HomeHeroRightImages img{
+        width: 111px;
+        top: 5px;
+        right: 5px;
+    }
+}
+@media (max-width:1350px){
+    .YT-HomeHeroRight{
+        display: none;
+    }
+}

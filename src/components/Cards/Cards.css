@@ -1,0 +1,33 @@
+.YT-Testimonial-Cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+@media (max-width:1888px) {
+    .YT-Testimonial-Cards{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+@media (max-width:1440px){
+    .YT-Testimonial-Cards{
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+}
+@media (max-width:1300px){
+    .YT-Testimonial-Cards{
+        flex-wrap:wrap;
+        gap: 10px;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:390px){
+    .YT-Testimonial-Cards :nth-child(4){
+        display: none;
+    }
+    .YT-Testimonial-Cards{
+        margin-top: 10px;
+    }
+}

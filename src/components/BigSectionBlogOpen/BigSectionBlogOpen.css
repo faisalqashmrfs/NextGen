@@ -1,0 +1,493 @@
+.Father-BigSection {
+    margin: 50px 49px 120px 50px;
+}
+
+.RH_BigSectionDown {
+    display: flex;
+}
+
+.RH_imgSection {
+    width: 100%;
+    height: 600px;
+    border-radius: 14px;
+    margin-bottom: 50px;
+}
+
+.RH_img1 {
+    width: 34px;
+    height: 34px;
+}
+
+.RH_DivImges {
+    margin-left: 152px;
+    margin-right: 20px;
+}
+
+.Div_RH_img1 {
+    width: 66px;
+    height: 66px;
+    background-color: var(--border-color);
+    border-radius: 12px;
+    border: 1px solid #333333;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.Div_RH_img1_3{
+    width: 66px;
+    height: 66px;
+    background-color: var(--border-color);
+    border-radius: 12px;
+    border: 1px solid #333333;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RH_DivDives {
+    width: 67.2258%;
+    border-radius: 14px;
+    padding: 50px;
+    background-color: var(--secondary-color);
+    margin-right: 20px;
+}
+
+.RH_DivDives h2 {
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--titles-color);
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.RH_DivDives p {
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-color);
+}
+
+.RH_SubDivDives {
+    margin-left: 50px;
+}
+
+.RH_SubDivDives1 {
+    margin-bottom: 30px;
+}
+
+.RH_DivDives_P {
+    margin-bottom: 14px;
+}
+
+.RH_DivEnd1 {
+    border-radius: 14px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.RH_DivEnd {
+    width: 26.42%;
+}
+
+.RH_SubDivEnd1 {
+    padding: 20px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.RH_DivEnd11 {
+    display: flex;
+    align-items: center;
+
+}
+
+.RH_DivEnd11 img {
+    margin-right: 15px;
+}
+
+.RH_DivEnd11 h5 {
+    margin-bottom: 2px;
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--orange2-color);
+}
+
+.RH_DivEnd11 p,
+.RH_DivEnd12 {
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--other-grey-color);
+}
+
+.RH_DivEnd12 {
+    margin-top: 24px;
+}
+
+.RH_img_small {
+    width: 21px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.RH_EndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 14px;
+    padding: 18px 24px;
+    background-color: var(--border-color);
+    border: none;
+    border: 1px solid #1f1f1f;
+}
+
+.RH_EndButton div {
+    display: flex;
+    align-items: center;
+}
+
+.RH_EndButton h5 {
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--other2-grey-color);
+}
+
+.RH_SubDivEnd2 {
+    padding: 20px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+}
+
+.RH_EndDivShare {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 14px;
+    padding: 20px;
+    background-color: var(--border-color);
+    width: 81.04%;
+    align-items: center;
+}
+
+.RH_EndDivShare h6,
+.RH_EndNumber {
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-color);
+}
+
+.RH_EndDivShareDiv {
+    display: flex;
+    align-items: center;
+}
+
+.RH_EndDivShareDiv div {
+    height: 27px;
+    border: 2px;
+    width: 2px;
+    background-color: var(--checkbox-color);
+    margin: 0px 10px;
+}
+
+.RH_EndNumber {
+    color: var(--absolute-white);
+}
+
+.RH_EndText {
+    color: var(--other-grey-color);
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.RH_SubDivEnd22 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RH_SubDivEnd22 .Div_RH_img1 {
+    margin-bottom: 0px;
+}
+
+.RH_DivDives_1 {
+    margin-bottom: 30px;
+}
+.RH_margin{
+    margin-bottom: 20px;
+}
+.RH_heart{
+    width: 34px;
+    height: 34px;
+    color: white;
+}
+
+
+@media (max-width : 1640px) {
+    .RH_imgSection {
+        height: 600px;
+        border-radius: 14px;
+        margin-bottom: 30px;
+    }
+
+    .Father-BigSection {
+        margin-right: 40px;
+        margin-left: 41px;
+    }
+
+    .RH_DivImges {
+        margin-left: 115px;
+        margin-right: 10px;
+    }
+
+    .RH_DivDives {
+        padding: 40px;
+        border-radius: 12px;
+        margin-right: 10px;
+    }
+
+    .RH_DivDives h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+
+    .RH_DivDives p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .RH_DivDives_P {
+        margin-bottom: 12px;
+    }
+
+    .Div_RH_img1 {
+        width: 56px;
+        height: 56px;
+        border-radius: 8px;
+        padding: 14px;
+        margin-bottom: 12px;
+    }
+
+    .RH_SubDivEnd22 .Div_RH_img1 {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 0px;
+        padding: 12px;
+    }
+
+    .RH_DivDives_1 {
+        margin-bottom: 24px;
+    }
+
+    .RH_SubDivDives {
+        margin-left: 40px;
+    }
+
+    .RH_DivEnd1 {
+        border-radius: 12px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .RH_SubDivEnd1 {
+        padding: 16px;
+        border-radius: 14px;
+        margin-bottom: 16px;
+    }
+
+    .RH_DivEnd11 h5 {
+        margin-bottom: 2px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .RH_DivEnd11 p,
+    .RH_DivEnd12 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .RH_EndButton {
+        border-radius: 8px;
+        padding: 14px 20px;
+        border: 2px solid #1f1f1f;
+    }
+
+    .RH_img_small {
+        width: 20px;
+        height: 20px;
+        margin-right: 4.5px;
+    }
+
+    .RH_EndButton h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .RH_EndDivShare h6,
+    .RH_EndNumber {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .RH_SubDivEnd2 {
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+}
+
+@media (max-width : 1420px) {
+    .RH_DivImges {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width : 1330px) {
+    .RH_DivDives {
+        width: 60%;
+    }
+
+    .RH_DivEnd {
+        width: 33.42%;
+    }
+
+    .RH_DivImges {
+        margin-left: 20px;
+    }
+
+    .RH_None {
+        display: none;
+    }
+}
+
+@media (max-width :1100px) {
+    .RH_BigSectionDown {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .RH_DivImges {
+        display: flex;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .Div_RH_img1 {
+        margin-right: 10px;
+    }
+
+    .RH_DivDives {
+        width: 100%;
+    }
+    .RH_DivEnd{
+        margin-top: 10px;
+    }
+    .RH_SubDivDives {
+        margin-left: 20px;
+    }
+    .RH_DivEnd {
+        width: 50%;
+    }
+
+}
+@media (max-width: 780px){
+    .RH_DivEnd {
+        width: 90%;
+    }
+}
+@media (max-width: 540px){
+    .Father-BigSection {
+        margin-right: 16px;
+        margin-left: 17px;
+    }
+    .RH_DivDives h2 {
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 8px;
+    }
+    .RH_DivEnd {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:390px) {
+    .RH_imgSection {
+        height: 240px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .Div_RH_img1 {
+        margin-right: 12px;
+    }
+
+    .RH_DivDives {
+        padding: 24px;
+        border-radius: 12px;
+        width: 100%;
+        margin: 0px;
+    }
+
+
+
+    .RH_DivDives p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+
+
+    .RH_DivEnd {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .RH_DivEnd {
+        width: 100%;
+    }
+
+    .RH_SubDivEnd1 {
+        padding: 24px;
+        border-radius: 10px;
+
+    }
+
+    .RH_DivEnd1 {
+        margin-top: 10px;
+    }
+
+    .RH_DivEnd11 p,
+    .RH_DivEnd12 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .RH_SubDivEnd2 {
+        margin-top: 10px;
+    }
+}
+@media(max-width:377px){
+    .RH_EndDivShareDiv p , .RH_EndDivShare h6{
+        font-size: 10px;
+    }
+    .RH_SubDivEnd22 {
+        padding: 5px;
+    }
+}

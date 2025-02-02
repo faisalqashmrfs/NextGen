@@ -1,0 +1,113 @@
+.YT-ReasonsCardComponent{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: var(--secondary-color);
+    border-radius: 14px;
+}
+.YT-bttonandiconstyle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.YT-ReasonsCardComponent-Title{
+    font-family: var(--roboto-font);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: var(--titles-color);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.YT-ReasonsCardComponent-Desc{
+    font-family: var(--roboto-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--text-color);
+    margin-bottom: 40px;
+}
+.YT-BlackIcon{
+    border-radius: 50%; 
+    border:  1px solid var( --buttonicon );   
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.YT-Button-Text-Style{
+    font-family: var(--roboto-font);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+@media (max-width:1888px) {
+    .YT-ReasonsCardComponent{
+        width: 48%;
+    }
+}
+@media (max-width:1440px){
+    .YT-ReasonsCardComponent{
+        padding: 30px;
+        width: 327.5px;
+        
+    }
+    .YT-bttonandiconstyle{
+        gap: 8px;
+    }
+    .YT-ReasonsCardComponent-Title{
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 10px;
+    }
+    .YT-ReasonsCardComponent-Desc{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+    }
+    .YT-Button-Text-Style{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        
+    }
+    .YT-BlackIcon{
+        padding: 16px;
+    }
+    .YT-BlackIcon img{
+        width: 20px;
+    }
+
+}
+@media (max-width:420px){
+    .YT-ReasonsCardComponent{
+        padding: 24px;
+        
+        width: 338px;
+        
+    }
+    .YT-ReasonsCardComponent-Title{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    .YT-ReasonsCardComponent-Desc{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 24px;
+    }
+    .YT-Button-Text-Style{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        
+    }
+}

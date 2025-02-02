@@ -1,0 +1,283 @@
+.YT-OurWorksBodyCard{
+    margin-top: 20px ;
+    padding: 20px;
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+}
+.YT-OurWorksLeftCard{
+    width: 33.33%;
+    padding: 60px 40px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+}
+.YT-AboutLeftCard{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+    gap:12px
+}
+.YT-AboutLeftCardDiv{
+    border:  1px solid var( --secondary-color);
+    background-color: var( --buttonicon);
+    color: var(--text-color);
+    font-family: var(--roboto-font);
+    border-radius: 45px;
+    padding: 10px 16px;
+    width: max-content;
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.YT-AboutLeftCardDivText{
+    color: var(--grey-color);
+    font-weight: 500;
+}
+.YT-AboutLeftCardDesc{
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-color);
+}
+.YT-OurWorksCenterCard{
+    width: 33.33%;
+    border-radius: 14px;
+}
+.YT-OurWorksCenterCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}   
+.YT-OurWorksRightCard{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.YT-TechnologiesUsed{
+    padding: 40px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+}
+.YT-TechnologiesUsed h4 , .YT-TeamMembers h4{
+    font-family: var(--roboto-font);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: var(--absolute-white);
+    text-transform: uppercase;
+}
+.YT-TechnologiesUsedUL{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.YT-TechnologiesUsedUL li{
+    background-color: var(--border-color);
+    width: fit-content;
+    padding: 10px 16px;
+    border-radius: 45px;
+    font-family: var(--roboto-mono-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-color);
+}
+.YT-TeamMembers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+    margin: 20px 0px;
+}
+.YT-TeamMembersImages{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.YT-TeamMembersImages div img{
+    width: 50px;
+}
+.YT-OurWorksRightCardButton{
+    width: 100%;
+    background-color: var(--orange-color);
+    padding: 18px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.YT-OurWorksRightCardButtonText{
+    font-family: var(--roboto-font);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.YT-OurWorksLeftCardButton{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: none;
+}
+.YT-OurWorksLeftCardButtonicon{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--border-radius-color);
+    background-color: var(--border-color);
+}
+.YT-OurWorksLeftCardButtonicon img{
+    width: 20px;
+}
+.YT-OurWorksLeftCardButtonText{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-family: var(--roboto-mono-font);
+}
+.YT-heding{
+    font-family:var(--roboto-font);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--titles-color);
+    text-transform: uppercase;
+}
+@media(max-width:1440px){
+    .YT-OurWorksBodyCard{
+        margin-top: 10px ;
+        padding: 10px;
+        gap: 10px;
+    }
+    .YT-TechnologiesUsed{
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .YT-TechnologiesUsed h4 , .YT-TeamMembers h4{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .YT-TechnologiesUsedUL{
+        gap: 8px;
+        margin-top: 16px;
+    }
+    .YT-TechnologiesUsedUL li{
+        padding: 8px 14px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .YT-TeamMembers{
+        padding: 16px 20px;
+        border-radius: 10px;
+        margin: 10px 0px;
+    }
+    .YT-TeamMembersImages{
+        gap: 8px;
+        
+    }
+    .YT-TeamMembersImages div img{
+        width: 40px;
+    }
+    .YT-OurWorksLeftCard{
+        padding: 50px 30px;
+    }
+    .YT-AboutLeftCard{
+        margin: 30px 0px;
+        gap:10px
+    }
+    .YT-AboutLeftCardDesc{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .YT-OurWorksRightCardButton{
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    .YT-OurWorksRightCardButtonText{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .YT-AboutLeftCardDiv{
+        border-radius: 45px;
+        padding: 8px 14px;
+        gap: 6px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .YT-AboutLeftCardDesc{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .YT-heding{
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+@media(max-width:1200px){
+    .YT-OurWorksRightCard{
+        display: none;
+    }
+    
+    .YT-OurWorksCenterCard{
+        width: 50%;
+        
+    }
+    .YT-OurWorksLeftCard{
+        width: 50%;
+    }
+}
+@media(max-width:895px){
+    
+    .YT-OurWorksBodyCard{
+    flex-direction: column-reverse;  
+        
+    }
+    .YT-OurWorksCenterCard{
+        width: 100%;
+        
+    }
+    .YT-OurWorksLeftCard{
+        width: 100%;
+    }
+}
+@media(max-width:390px){
+    .YT-OurWorksLeftCard{
+        padding: 24px;
+    }
+    .YT-AboutLeftCardDiv{
+        border-radius: 45px;
+        padding: 6px 10px;
+        gap: 4px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .YT-AboutLeftCardDesc{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .YT-OurWorksLeftCardButton{
+        display: flex;
+    }
+
+    .YT-heding{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

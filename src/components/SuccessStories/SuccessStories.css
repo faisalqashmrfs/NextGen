@@ -1,0 +1,33 @@
+
+    .HM-Margin{
+    margin-top: 20px ;
+    }
+    .hm-Stories-content{
+        display: flex; 
+        align-items: center;
+        gap:20px ;
+        padding: 50px;
+        border-radius: 20px;
+        border: 2px solid var(--border-color);
+    }
+    @media (max-width:1440px) {
+        .HM-Margin{
+            margin-top: 10px ;
+            }
+        .hm-Stories-content{
+            display: flex; 
+            gap:10px ;
+            padding: 30px;
+            border-radius: 16px;
+           justify-content: center;
+        }    
+    }
+    @media (max-width:990px) {
+        .hm-Stories-content{
+            display: flex;
+            flex-wrap: wrap; 
+            gap:10px ;
+            padding: 10px;
+        }    
+    }  
+    

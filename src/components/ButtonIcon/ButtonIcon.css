@@ -1,0 +1,22 @@
+.HM-button-icon{
+  border-radius: 100px; 
+  border:  1px solid var( --buttonicon );   
+  background-color: var(--secondary-color);
+  padding: 20px;
+  }
+  
+  @media(max-width:1440px){
+      .HM-button-icon{
+        padding: 16px ;
+    } 
+  }
+  @media(max-width:750px){
+    .HM-button-icon{
+      padding: 12px ;
+  } 
+  }
+  @media(max-width:550px){
+    .HM-button-icon{
+      padding: 8px ;
+  } 
+  }

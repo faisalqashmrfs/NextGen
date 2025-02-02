@@ -1,0 +1,139 @@
+.LJ-BrilliantCards{
+    width: 430px;
+    background-color: var(--secondary-color); 
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+.people img{
+  position: absolute;
+  bottom: 50%;
+   left: 50%; 
+  transform: translate(-50%);  
+}
+.LJ-h1{
+    font-weight: 500;
+    font-size: 24px;
+    color: var( --titles-color);
+}
+.LJ-h3{
+    font-weight: 400px;
+    line-height: 27px;
+    font-size: 18px;
+    color: var( --text-color); 
+}
+.LJ-BrilliantCards-Top{
+    background-color: var( --p-color);
+    height: 267px;
+    padding: 50px 50px 150px;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+
+}
+.LJ-BrilliantCards-Bottom{
+    background-color: var(--secondary-color);
+    height: 223px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 30px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    position: relative;
+}
+ .LJ-app{
+ display: flex;
+justify-content: center;
+gap: 10px;
+position: absolute;
+bottom: 10%;
+left: 50%;
+transform: translate(-50%);
+
+ }
+ .LJ-app button{
+    border: none;
+    outline: none;
+    padding: 14px;
+    background-color: var( --border-color);
+    border: 1px solid #333333;
+    border-radius: 100px;
+ }
+  .LJ-app img{
+     width: 24px;
+    height: 24px;
+ }    
+
+
+@media (max-width:1440px){
+    .LJ-BrilliantCards{
+        /* width: 44.5%; */
+        gap: 4px;
+    }
+    .people img{
+        width: 279px;
+    }
+    .LJ-h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .LJ-h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .LJ-BrilliantCards-Top{
+        height: 215px;
+        padding: 40px 40px 120px 40px;
+        gap: 40px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .LJ-BrilliantCards-Bottom{
+        height: 173px;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-bottom: 30px;
+        gap: 24px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+  
+    .LJ-app img{
+        width: 20px;
+        height: 20px;  
+       gap: 10px;
+    }
+}
+@media (max-width:720px){
+    .LJ-BrilliantCards-Top{
+        width: 100%;
+        height: 180px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .LJ-BrilliantCards-Bottom{
+        height: 173px;
+        width: 100%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .people img{
+        width: 80%;
+    }
+    .LJ-h1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .LJ-h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+@media (max-width:390px){
+    .LJ-BrilliantCards-Top{
+        width: 100%;
+    }
+}

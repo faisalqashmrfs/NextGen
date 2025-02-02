@@ -1,0 +1,146 @@
+.Father-Digital {
+    background-color: var(--orange-color);
+    padding: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-left: 49px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.RH_Child1 {
+    width: 71.4629%;
+}
+
+.Father-Digital div h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 87px;
+    color: var(--primary-color);
+    font-family: var(--roboto-font);
+    margin-bottom: 4px;
+}
+
+.Father-Digital div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--buttonicon);
+    font-family: var(--roboto-font);
+}
+
+.Father-Digital button {
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    padding: 18px 34px;
+    display: flex;
+    border: none;
+}
+
+.Father-Digital button p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    font-family: var(--roboto-font);
+    color: var(--orange2-color);
+    margin-right: 3px;
+}
+
+.Father-Digital button img {
+    color: var(--hover-color);
+}
+
+@media (max-width : 1440px) {
+    .Father-Digital {
+        padding: 60px;
+        border-radius: 16px;
+        margin-left: 40px;
+        margin-right: 41px;
+    }
+
+    .RH_Child1 {
+        width: 74.01%;
+    }
+
+    .Father-Digital div h2 {
+        font-size: 42px;
+        line-height: 63px;
+        margin-bottom: 2px;
+    }
+
+    .Father-Digital div p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Father-Digital button {
+        padding: 14px 24px;
+    }
+
+  
+}
+
+@media (max-width :997px) {
+    .Father-Digital {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .Father-Digital button {
+        margin-top: 20px;
+    }
+
+    .Father-Digital button img {
+        margin-left: 10px;
+    }
+
+    .Father-Digital div h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+}
+
+@media (max-width :650px) {
+    .Father-Digital div h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width : 571px) {
+    .Father-Digital {
+        padding: 30px;
+        border-radius: 12px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 16px;
+    }
+
+    .RH_Child1 {
+        width: 100%;
+    }
+
+    .Father-Digital div h2 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .Father-Digital div p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .Father-Digital button {
+        padding: 14px 24px;
+        width: 100%;
+        justify-content: center;
+        margin-top: 16px;
+    }
+    .Father-Digital button img {
+        margin-left: 8px;
+    }
+}

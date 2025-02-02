@@ -1,0 +1,125 @@
+.KEYSEC{
+    margin: 120PX 50PX 0 50PX;
+    padding: 20px;
+    border: solid 2px var(--border-color);
+    border-radius: 24px;
+    background-color: var(--primary-color);
+}
+.MA-KEYCARDS{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+.MA-KEYCARD{
+    width: 24.62%;
+    padding: 40px;
+    border-radius: 14px;
+    border: none;
+    background-color: var(--secondary-color);
+}
+.MA-ICON{
+    width: 66px;
+    padding: 16px;
+   border: 1px solid #333333;
+   border-radius: 12px;
+}
+.MA-ICON img{
+    width: 34px;
+}
+.MA-TEXT{
+    width: 99%;
+    height: 48.59%;
+    padding-top: 80px;
+}
+.MA-TEXT h3{
+    font-family:var(--roboto-font);
+font-size: 30px;
+font-weight: 500;
+line-height: 45px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--titles-color);
+}
+.MA-TEXT p{
+    padding-top: 12px;
+    font-family:var(--roboto-font);
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--text-color);
+}
+@media (max-width:1600px) {
+    .KEYSEC{
+        margin: 80PX 40PX 0 40PX;
+        padding: 10px;
+    }
+    .MA-KEYCARDS{
+        gap: 10px;
+        padding-top: 10px;
+    }
+    .MA-KEYCARD{
+        padding: 24px;
+        border-radius: 10px;
+    }
+    .MA-ICON{
+        width: 56px;
+        padding: 14px;
+       border-radius: 8px;
+    }
+    .MA-ICON img{
+        width: 28px;
+    }
+    .MA-TEXT{
+        width: 100%;
+        padding-top: 40px;
+    }
+    .MA-TEXT h3{
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .MA-TEXT p{
+        padding-top: 10px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media (max-width:800px) {
+    .KEYSEC{
+        margin: 50PX 16PX 0 16PX;
+        
+    }
+    .MA-KEYCARDS{
+        display: block; 
+        padding-top: 0;
+    }
+    .MA-KEYCARD{
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .MA-ICON{
+        width: 52px;
+    }
+    .MA-ICON img{
+        width: 24px;
+    }
+    .MA-TEXT{
+        padding-top: 30px;
+    }
+    .MA-TEXT h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .MA-TEXT p{
+        padding-top: 6px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

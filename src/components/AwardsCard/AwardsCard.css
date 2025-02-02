@@ -1,0 +1,151 @@
+.LJ-cards{
+    width: 430px;
+    border-radius: 14px;
+    padding: 40px;
+    background-color: var( --secondary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+}
+.date-icon{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.date-icon h4{
+    background-color: var( --buttonicon);
+    color: var( --grey-color);
+    border-radius: 45px;
+    padding: 10px 16px;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.date-icon h4 span{
+    color: var( --text-color);
+}
+.watch img{
+    width: 34px;
+    height: 34px;
+}
+.watch{
+    border: 1px solid var( --icon-border);
+    border-radius: 12px;
+    padding: 16px;
+    background-color: var(--border-color);
+}
+.date-icon h4 img{
+    width: 4px;
+    height: 4px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.text h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--titles-color);
+}
+.text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-color);
+}
+
+
+
+
+
+
+@media  (max-width:1440px){
+    .LJ-cards{
+        width: 327.5px;
+        border-radius: 12px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .text h2{
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .text p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .date-icon{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .date-icon h4{
+        padding: 8px 14px;
+        font-size: 14px;
+        line-height: 21px;
+        /* display: flex;
+        justify-content: space-between;
+        gap: 6px; */
+    }
+    .watch img{
+        width: 28px;
+        height: 28px;
+    }
+    .watch{  
+        border-radius: 8px;
+        padding: 14px; 
+    }
+}
+    @media (max-width: 420px) {
+        .LJ-cards{
+            width: 338px;
+          padding: 24px;
+          border-radius: 12px;
+        }
+        .text h2{
+            font-size: 18px;
+            line-height: 27px;
+        }
+        .text p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .watch{  
+            border-radius: 8px;
+            padding: 14px; 
+        }
+        .watch img{
+            width: 24px;
+            height: 24px;
+        }
+
+
+        .date-icon h4{
+            padding: 8px 14px;
+            font-size: 14px;
+            line-height: 21px;
+            padding:8px 14px; 
+            border-radius: 45px;
+            /* display: flex;
+            justify-content: space-between;
+            gap: 6px; */
+        }
+   
+    }
+      @media (max-width:390px){
+        .LJ-cards:nth-child(4){
+            display: none;
+        }
+    }

@@ -1,0 +1,142 @@
+.MH-SECTION{
+    margin: 120PX 50PX 0 50PX;
+}
+.MH-ALLACHIEV{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding-top: 20px;
+}
+.MH-ACHIEVCARD{
+    width: 24.17%;
+    border-radius: 14px;
+    border: none;
+    background-color: var(--secondary-color);
+}
+.MH-SPAN{
+    padding: 16px 30px;
+}
+.MH-SPAN span{
+    font-family:var(--roboto-mono-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--other-grey-color);
+    
+}
+.MH-HEADING{
+    padding: 40px 30px;
+    background-color:var(--border-color) ;
+}
+.MH-HEADING h3{
+    width: 94%;
+    color: var(--titles-color);
+    font-family:var(--roboto-font);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-top: 2PX solid var(--p-color) ;
+}
+.MH-ACHIEVCARD p{
+    width: 95%;
+    padding: 30px;
+    border-top: 2PX solid var(--p-color) ;
+    font-family:var(--roboto-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-color);
+}
+@media (max-width:1600px) {
+    .MH-SECTION{
+        margin: 80PX 40PX 0 40PX;
+        padding: 10px;
+        border: 2px solid var(--border-color);
+        border-radius: 20px;
+    }
+    .MH-ALLACHIEV{
+        padding-top: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .MH-ACHIEVCARD{
+        width: 24.44%;
+    }
+    .MH-SPAN{
+        padding: 12px 24px;
+    }
+    .MH-SPAN span{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left; 
+    }
+    .MH-HEADING{
+        padding: 30px 24px;
+    }
+    .MH-HEADING h3{
+        width: 98%;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .MH-ACHIEVCARD p{
+        width: 100%;
+        padding: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+@media (max-width:850px) {
+    .MH-SECTION{
+        margin: 50PX 16PX 0 16PX;
+        padding: 10px;
+        border: 2px solid var(--border-color);
+        border-radius: 20px;
+    }
+    .MH-ALLACHIEV{
+        padding-top: 0px;
+        display: block;
+        
+    }
+    .MH-ACHIEVCARD{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .MH-SPAN{
+        padding: 10px 20px;
+    }
+    .MH-SPAN span{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px; 
+    }
+    .MH-HEADING{
+        padding: 24px 20px;
+    }
+    .MH-HEADING h3{
+        width: 98%;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+    .MH-ACHIEVCARD p{
+        padding: 20px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .mh-hiddenbtn{
+        margin-top: 10px;
+    }
+
+}

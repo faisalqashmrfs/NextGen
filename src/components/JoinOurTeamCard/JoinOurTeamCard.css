@@ -1,0 +1,189 @@
+.MA-JoinOurTeamCard{
+    width: 49.43%;
+    border-radius: 14px;
+    padding: 50px;
+    background-color: var(--secondary-color);
+}
+.MA-Content-Styling-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+.MA-Content-Styling {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 45px;
+    background-color: var(--border-color);
+}
+.MA-Content-Styling :nth-child(1){
+    font-family: var(--roboto-font);
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-color);
+}
+.MA-Content-Styling :nth-child(3){
+    font-family: var(--roboto-font);
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--grey-color);
+}
+.MA-Card-Third-Section :nth-child(1){
+    font-family: var(--roboto-font);
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--titles-color);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.MA-Card-Third-Section :nth-child(2){
+    font-family: var(--roboto-font);
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-color);
+}
+.MA-ButtonIcon{
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--input-color);
+    background-color: var(--border-color);
+}
+.MA-heding{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: var(--roboto-font);
+    line-height: 45px;
+    color: var(--titles-color);
+    text-transform: uppercase;
+}
+.MA-text{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--roboto-mono-font);
+    line-height: 30px;
+    color: var(--titles-color);
+}
+.MA-SecoundButton{
+    display: none;
+}
+.MA-OrangButton {
+    width: 100%;
+    background-color: var(--orange-color);
+    padding: 18px 24px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+.MA-OrangButtonText{
+    color: var( --primary-color);
+    font-family: var(--roboto-font);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+@media(max-width:1895px){
+    .MA-JoinOurTeamCard{
+        border-radius: 12px;
+        padding: 40px;
+    }
+}
+@media(max-width:1440px){
+    .MA-Content-Styling-container {
+        gap: 20px;
+        margin: 30px 0px;
+    }
+    .MA-Content-Styling {
+        gap: 6px;
+        padding: 8px 12px;
+    }
+    .MA-Content-Styling :nth-child(1),.MA-Content-Styling :nth-child(3){
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .MA-Card-Third-Section :nth-child(1){
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    .MA-Card-Third-Section :nth-child(2){
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .MA-heding{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .MA-ButtonIcon{
+        padding: 16px;
+    }
+    .MA-ButtonIcon img{
+        width: 24px;
+    }
+    .MA-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .MA-OrangButton {
+        padding: 14px 20px;
+        border-radius: 8px;
+        margin-top: 30px;
+    }
+    .MA-OrangButtonText{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+@media(max-width:1200px){
+    .MA-SecoundButton{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 24px 0px;
+    }
+    .MA-JoinOurTeamCard{
+        width: 100%;
+    }
+    .MA-OrangButton {
+        margin-top: 0px;
+    }
+}
+@media(max-width:390px){
+    .MA-JoinOurTeamCard{
+        border-radius: 12px;
+        padding: 24px;;
+    }
+    .MA-heding{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .MA-Content-Styling-container {
+        gap: 12px;
+        margin: 24px 0px;
+    }
+    .MA-Card-Third-Section :nth-child(1){
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+    .MA-Card-Third-Section :nth-child(2){
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .MA-ButtonIcon{
+        padding: 14px;
+    }
+    .MA-ButtonIcon img{
+        width: 20px;
+    }
+    .MA-text{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,22 @@
+.Awards-Data{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+@media  (max-width:1440px){
+    .Awards-Data{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width:1300px){
+    .Awards-Data{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 10px;
+    }
+}

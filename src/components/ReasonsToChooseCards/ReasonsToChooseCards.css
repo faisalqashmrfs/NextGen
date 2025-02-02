@@ -1,0 +1,33 @@
+.YT-ReasonsToChooseCards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+@media (max-width:1888px) {
+    .YT-ReasonsToChooseCards{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+@media (max-width:1440px){
+    .YT-ReasonsToChooseCards{
+        flex-wrap:nowrap;
+        gap: 10px;
+    }
+}
+@media (max-width:1300px){
+    .YT-ReasonsToChooseCards{
+        flex-wrap:wrap;
+        gap: 10px;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:390px){
+    .YT-ReasonsToChooseCards :nth-child(4){
+        display: none;
+    }
+    .YT-ReasonsToChooseCards{
+        margin-top: 10px;
+    }
+}

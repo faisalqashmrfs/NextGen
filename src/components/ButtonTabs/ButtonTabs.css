@@ -1,0 +1,44 @@
+.hm-tabbutton {
+  margin-bottom: 20px;
+  border-radius: 12px;
+  padding: 18px 24px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  font-family: var(--roboto-font);
+  color: var(--text-color);
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid var(  --buttonicon);
+}
+
+@media (max-width:1440px) {
+  .hm-tabbutton {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+   text-transform: uppercase;
+ }
+  }
+  @media (max-width:790px) {
+    .hm-tabbutton {
+      display: flex;
+      gap: 8px;  
+      margin-bottom:10px;
+      border-radius: 8px;
+      /*padding: 14px 20px;*/
+      padding: 10px 5px;
+      font-size: 14px;
+      line-height: 21px;  
+  }
+}
+@media (max-width:390px) {
+  .hm-tabbutton {
+    display: flex;
+    gap: 8px;
+  }
+}
+

@@ -1,0 +1,151 @@
+.hm-OurServicesCardcontainer{
+     width: 100%; 
+     height: 432px;
+    background-color: var(--secondary-color);
+    padding: 90px 60px;
+    border-radius: 14px;
+    text-decoration: none;  
+}
+.hm-srvesingheading{
+    font-family:var(--roboto-font);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--titles-color);
+    text-transform: uppercase;   
+}
+.hm-OurServicesDesc :nth-child(1){
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: var(--roboto-font);
+    color: var(--text-color);
+}
+.hm-OurServicesDesc :nth-child(2){
+    text-align: end;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: var(--roboto-font);
+    color: var(--titles-color);
+    margin-bottom: 15px;
+}
+.hm-OurServices-Secound-Button{
+    display: none;
+}
+.hm-ButtonText{
+    font-size: 14px;
+    color: var(--primary-color);
+    line-height: 21px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: var(--roboto-font);
+}
+.hm-ButtonandText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+.hm-ourservicesButton{
+    padding: 14px;
+    border-radius: 50%;
+    border: 1px solid var(--border-radius-color);
+    background-color: var(--border-color);
+}
+.hm-ourservicestext{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-family: var(--roboto-mono-font);
+}
+@media (max-width:1500px) {
+    .hm-srvesingheading{
+        font-size: 22px;
+        line-height: 33px;  
+    } 
+    .hm-ourservicestext{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media (max-width:1440px) {
+    .hm-OurServicesCardcontainer{
+padding: 60px;
+/*width: 665px;*/
+height: 356px;
+border-radius: 12px;
+    }
+    .hm-srvesingheading{
+        font-size: 22px;
+        line-height: 33px;  
+    }
+    .hm-OurServicesDesc :nth-child(1){
+        margin-top: 40px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hm-OurServicesDesc :nth-child(2){
+        text-align: end;
+        margin-top: 16px;
+        font-size: 22px;
+        line-height:33px;
+        margin-bottom: 15px;
+    }
+  
+    .hm-ourservicesButton{
+        padding: 10px;
+    }
+}
+@media(max-width:750px){
+    .hm-OurServicesCardcontainer{
+   height: max-content;
+    padding: 24px;
+    }
+    .hm-OurServicesDesc{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hm-ButtonandText{
+   display: none;
+    }
+    .hm-OurServicesCardcontainer .hm-OurServicesDesc :nth-child(1){
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .hm-OurServicesCardcontainer .hm-OurServicesDesc :nth-child(2){
+        text-align: start;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 0px;
+    }
+    .hm-OurServices-Secound-Button{
+        width: 100%;
+        margin-top: 20px;
+        padding: 14px 20px;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
+       color: var( --primary-color);
+       background-color: var(--orange-color);
+    }  
+}
+@media(max-width:390px){
+    .hm-OurServicesCardcontainer{
+   /* width: 338px;*/
+  /* height: 285px;*/
+    }
+}

@@ -1,0 +1,117 @@
+.HM-heading{
+    padding: 50px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background-color: var( --secondary-color);
+    
+    }
+    .MH-TABS{
+        display: flex;
+        gap: 12px;
+      }
+      .MH-TABS button{
+        padding: 18px 24px;
+        background-color: var(--border-color);
+        color: var(--text-color);
+        border: none;
+        border-radius: 12px;
+        font-family: var(--roboto-font);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+      
+      
+      }
+      .MH-TABS button.active {
+        background-color:var(--orange-color);
+        color:var(--primary-color);
+      }
+    .HM-heading h2{
+        font-size: 48px;
+        line-height: 56px;
+        font-weight: 600;
+        
+        color: var( --titles-color);
+        font-family:var(--roboto-font) ;
+        text-transform: uppercase;
+    
+    }
+    .MH-tabs{
+        display: none;
+    }
+    @media (max-width:1440px) {
+        .HM-heading{
+            
+            padding: 40px ;
+            }   
+            .HM-heading h2{
+                font-size: 38px;
+                line-height: 45px;
+                
+            }
+        }
+            @media (max-width:920px) {
+            .HM-heading h2{
+                font-size: 32px;
+                line-height: 40px;
+            }
+            .HM-heading{
+            
+                padding: 30px ;
+                } 
+                
+        }
+    
+    @media (max-width:770px) {
+        .HM-heading{
+            display: block;
+            padding: 30px ;
+            } 
+        .HM-heading h2{
+            font-size: 29px;
+            line-height: 40px;
+        }
+        .MH-TABS{
+            display: none;
+        }
+        .MH-tabs button.active {
+            background-color:var(--orange-color);
+            color:var(--primary-color);
+          }
+        .MH-tabs{
+            display: flex;
+            padding: 10px 0;
+            gap: 10px;
+          }
+          .MH-tabs button{
+            padding: 14px 20px;
+            background-color: var(--border-color);
+            color: var(--text-color);
+            border: none;
+            border-radius: 10px;
+            font-family: var(--roboto-font);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: center;
+          
+          
+          }
+       
+    }
+    
+    @media (max-width:395px) {
+        .HM-heading{
+            
+            padding: 24px ;
+            } 
+            .HM-heading h2{
+            font-size: 28px;
+            line-height: 33px;
+            
+            } 
+        
+    }

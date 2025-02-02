@@ -1,0 +1,29 @@
+.YT-ProjectsRight{
+    width: 32.58%;
+    background-image: url(../../assets/images/projects-hero.png);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.YT-ProjectsRightContant{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:1300px){
+    .YT-ProjectsRight{
+        width: 100%;
+        height: 364px;
+    }
+}
+@media(max-width:490px){
+    .YT-ProjectsRight{
+        border-radius: 14px;
+        padding: 16px;
+    }
+}

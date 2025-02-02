@@ -1,0 +1,30 @@
+.hm-StoriesCard{
+    border: 1px solid var(  --secondary-color);
+    background-color: var(  --secondary-color);
+    border-radius:14px ;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /*width:747px;*/
+   /* width: 38.90%;*/
+   width: 100%;
+}
+@media (max-width:1440px) {
+    .hm-StoriesCard {
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    border-radius: 12px;
+   /* width:595px ;*/
+    }
+}
+@media (max-width:770px) {
+    .hm-StoriesCard{
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+       /* width: 338px;*/
+        } 
+}

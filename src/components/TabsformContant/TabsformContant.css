@@ -1,0 +1,159 @@
+.hm-contanier-contactus {
+  width: 41.04%;
+  border-radius: 14px;
+  padding: 50px;
+  background: var(--secondary-color);
+  height: max-content;
+}
+.hm-contanier-contactus-button {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+.hm-tabbutton-form {
+  border-radius: 12px;
+  padding: 18px 24px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  font-family: var(--roboto-font);
+  color: var(--text-color);
+  text-align: center;
+  border: 1px solid var(--buttonicon);
+  
+}
+.hm-contatus-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hm-button-form_1{
+  margin-bottom: 30px;
+}
+.hm-form-input {
+  width: 100%;
+  height: 88px;
+  border-radius: 14px 100px 100px 14px;
+  padding: 10px 24px 10px 14px;
+  background-color: var(  --border-color);
+  font-family: var(--roboto-mono-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: var(--absolute-white);
+  border: 1px solid var(--buttonicon);
+}
+.hm-form-input::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: var(--absolute-white);
+  font-family: var(--roboto-mono-font);
+}
+.hm-button-form label {
+  font-family: var(--roboto-font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--other-grey-color);
+}
+.hm-button-form {
+  position: relative;
+}
+.Hm-form-icon {
+  border-radius: 100px;
+  border: 1px solid var(--buttonicon);
+  background-color: var(--secondary-color);
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-30%);
+}
+@media (max-width: 1440px) {
+  .hm-contanier-contactus {
+    border-radius: 12px;
+    padding: 40px;
+    height: max-content;
+  }
+  .hm-contanier-contactus-button {
+    gap: 8px;
+    padding-bottom: 60px;
+
+  }
+  .hm-tabbutton-form {
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .hm-contatus-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
+  }
+  .hm-form-input {
+    height: 72px;
+    border-radius: 10px 100px 100px 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hm-form-input::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hm-button-form label {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .Hm-form-icon {
+    padding: 16px;
+  }
+}
+@media(max-width:1100px){
+  .hm-contanier-contactus{
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .hm-contanier-contactus-button {
+    padding-bottom: 30px;
+  }
+  .hm-contatus-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+     margin-top: 50px;
+  }
+
+  .hm-tabbutton-form:nth-child(1) {
+    display: none;
+  }
+  .hm-tabbutton-form {
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .hm-form-input {
+    height: 64px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .hm-form-input::placeholder {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .hm-button-form label {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .Hm-form-icon {
+    padding: 14px;
+    }
+}
+
+

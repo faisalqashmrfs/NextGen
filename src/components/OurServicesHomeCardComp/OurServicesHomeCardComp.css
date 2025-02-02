@@ -1,0 +1,137 @@
+.YT-OurServicesCardLink{
+    /* width: 878px; */
+    width: 49.43%;
+    background-color: var(--secondary-color);
+    padding: 80px;
+    border-radius: 14px;
+    text-decoration: none;
+    
+}
+.YT-OurServicesCardLink .YT-OurServicesDesc :nth-child(1){
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: var(--roboto-font);
+    color: var(--text-color);
+}
+.YT-OurServicesCardLink .YT-OurServicesDesc :nth-child(2){
+    text-align: end;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: var(--roboto-font);
+    color: var(--titles-color);
+}
+
+.YT-OurServices-Secound-Button{
+    width: 100%;
+    background-color: var(--orange-color);
+    margin-top: 20px;
+    padding: 14px 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.YT-ButtonText{
+    font-size: 14px;
+    color: var(--primary-color);
+    line-height: 21px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: var(--roboto-font);
+}
+.YT-ButtonandText{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+.YT-ourservicesButton{
+    padding: 14px;
+    border-radius: 50%;
+    border: 1px solid var(--border-radius-color);
+    background-color: var(--border-color);
+}
+.YT-ourservicestext{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-family: var(--roboto-mono-font);
+}
+.YT-ourservicesButton img{
+    width: 24px;
+}
+@media (max-width:1895px){
+    .YT-OurServicesCardLink{
+        width: 49%;
+    }
+}
+@media (max-width:1791px){
+    .YT-OurServicesCardLink{
+        width: 49.43%;
+    }
+    .YT-OurServicesCardLink{
+        padding: 60px;
+    }
+    .YT-OurServicesCardLink .YT-OurServicesDesc :nth-child(1){
+        margin-top: 40px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .YT-OurServicesCardLink .YT-OurServicesDesc :nth-child(2){
+        margin-top: 16px;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .YT-ourservicesButton{
+        padding: 10px;
+    }
+    .YT-ourservicesButton img{
+        width: 20px;
+    }
+    .YT-ourservicestext{
+        font-size:16px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+}
+@media(max-width:1200px){
+    .YT-OurServicesCardLink{
+        width: 100%;
+    }
+    .YT-ButtonandText{
+        display: none;
+    }
+    .YT-OurServices-Secound-Button{
+        display: flex;
+    }
+    .YT-OurServicesCardLink{
+        padding: 24px;
+    }
+}
+
+@media(max-width:390px){
+    .YT-OurServicesDesc{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .YT-OurServicesCardLink .YT-OurServicesDesc :nth-child(1){
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .YT-OurServicesCardLink .YT-OurServicesDesc :nth-child(2){
+        text-align: start;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+   
+}

@@ -1,0 +1,222 @@
+ @keyframes appearl {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+ @keyframes appearr {
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+ .block{
+    animation: appearl 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+ }
+ .block1{
+    animation: appearr 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+ }
+ 
+ 
+ .MH-BUT {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--secondary-color);
+    border: none;
+    font-family:var(--roboto-mono-font);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-color);
+    padding-top: 30px;
+}
+.MH-SECTIO{
+    margin: 120PX 50PX 0 50PX;
+    border: 2PX SOLID var(--border-color);
+    border-radius: 24PX;
+    padding: 20px;
+}
+.MH-ALLHOW{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.MH-HOWCARD{
+    width: 24.15%;
+    border-radius: 14px;
+    border: none;
+    background-color: var(--secondary-color);
+    margin-top: 20px;
+}
+.MH-SPAN{
+    padding: 16px 30px;
+}
+
+.MH-SPAN span{
+    font-family:var(--roboto-mono-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--other-grey-color);
+    
+}
+.MH-HEADING{
+    padding: 40px 30px;
+    background-color:var(--border-color) ;
+    border-top: 2PX solid var(--p-color) ;
+}
+.MH-HEADING h3{
+    width: 94%;
+    color: var(--titles-color);
+    font-family:var(--roboto-font);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+   border: none;
+}
+.MH-PARA{
+    height: 60.879%;
+    padding: 30px;
+    border-top: 2PX solid var(--p-color) ;
+}
+.MH-HOWCARD .MH-PARA p {
+    height: 60%;
+    
+    font-family:var(--roboto-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-color);
+}
+
+
+@media (max-width:1600px) {
+    .MH-SECTIO{
+        margin: 80px 40px 0 40px;
+        padding: 10px;
+        border: 2px solid var(--border-color);
+        border-radius: 20px;
+    }
+    .MH-ALLHOW{
+       
+        display: flex;
+        gap: 10px;
+    }
+    
+    .MH-SPAN{
+        padding: 12px 24px;
+    }
+    .MH-SPAN span{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left; 
+    }
+    .MH-HEADING{
+        padding: 30px 24px;
+    }
+    .MH-HEADING h3{
+        width: 98%;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .MH-PARA{
+        padding: 24px;
+    }
+    .MH-HOWCARD .MH-PARA p{
+        
+        height: 70%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .MH-BUT {
+        gap: 8px;
+    }
+    .MH-BUT {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-top: 24px;
+    }
+}
+@media (max-width:850px) {
+    .MH-SECTIO{
+        margin: 50PX 16PX 0 16PX;
+        padding: 10px;
+        border: 2px solid var(--border-color);
+        border-radius: 20px;
+    }
+    .MH-ALLHOW{
+        padding-top: 0px;
+        display: block;
+        
+    }
+    .MH-HOWCARD{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .MH-SPAN{
+        padding: 10px 20px;
+    }
+    .MH-SPAN span{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px; 
+    }
+    .MH-HEADING{
+        padding: 24px 20px;
+    }
+    .MH-HEADING h3{
+        width: 98%;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+    .MH-PARA{
+        padding: 20px;
+    }
+    .MH-HOWCARD .MH-PARA p{
+        
+        font-size: 14px;
+        line-height: 21px;
+    }
+   
+    .MH-BUT img {
+       width: 40px;
+       height: 40px;
+    }
+    .mh-hiddenbtn{
+        margin-top: 10px;
+    }
+
+}
+

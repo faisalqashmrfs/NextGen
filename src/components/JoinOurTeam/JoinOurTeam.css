@@ -1,0 +1,40 @@
+.MA-JoinOurTeam{
+    margin: 120px  50px 0px 50px ;
+    border: 2PX solid var(--border-color);
+    border-radius: 24PX;
+    padding: 20px;
+}
+.MA-JoinOurTeamCardDiv{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media(max-width:1895px){
+    .MA-JoinOurTeamCardDiv{
+        margin-top: 10px;
+        gap: 18px;
+    }
+}
+@media(max-width:1721px){
+    .MA-JoinOurTeamCardDiv{
+        gap: 14px;
+    }
+}
+@media(max-width:1440px){
+    .MA-JoinOurTeamCardDiv{
+        gap: 10px;
+    }
+    .MA-JoinOurTeam{
+        margin: 36px  40px 0px 40px ;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}
+@media(max-width:420px){
+    .MA-JoinOurTeam{
+        margin: 50px  16px 0px 16px ;
+        border-radius: 14px;
+    }
+
+}

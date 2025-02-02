@@ -1,0 +1,60 @@
+.YT-BlogsOpenRight{
+    width: 32.58%;
+    padding: 30px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.YT-BlogsOpenRightDiv{
+    padding: 30px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--border-color);
+}
+.YT-BlogsOpenRightDiv :nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--roboto-mono-font);
+    line-height: 27px;
+    color: var(--text-color);
+}
+.YT-BlogsOpenRightDiv :nth-child(2){
+    font-size: 22px;
+    font-weight: 500;
+    font-family: var(--roboto-mono-font);
+    line-height: 33px;
+    color: var(--absolute-white);
+}
+@media(max-width:1440px){
+    .YT-BlogsOpenRight{
+        padding: 10px;
+        gap: 10px;
+    }
+    .YT-BlogsOpenRightDiv{
+        padding: 20px;
+        border-radius: 12px;
+    }
+    .YT-BlogsOpenRightDiv :nth-child(1){
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .YT-BlogsOpenRightDiv :nth-child(2){
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+@media(max-width:1300px){
+    .YT-BlogsOpenRight{
+        width: 100%;
+
+    }
+}
+@media(max-width:390px){
+    .YT-BlogsOpenRightDiv :nth-child(2){
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

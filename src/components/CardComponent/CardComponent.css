@@ -1,0 +1,154 @@
+.YT-Card-Component{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+.YT-Card-Component-Top{
+    padding: 40px;
+    height: 284px;
+    background-color: var(--secondary-color);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.YT-Testimonial-Card-Title{
+    font-family: var(--roboto-font);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--titles-color);
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.YT-Testimonial-Card-Desc{
+    font-family: var(--roboto-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--text-color);
+}
+.YT-Card-Component-Bottom{
+    padding: 30px 40px;
+    background-color: var(--border-color);
+    height: 120px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.YT-Card-Component-Employee{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.YT-Card-Component-Employee-Career :nth-child(1){
+    color: #F3DFD8;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--roboto-font);
+}
+.YT-Card-Component-Employee-Career :nth-child(2){
+    color: var(--other-grey-color);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: var(--roboto-font);
+}
+.YT-icon{
+    padding: 14px;
+    border-radius: 50%; 
+    border:  1px solid var( --buttonicon );   
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+}
+.YT-icon img{
+    width: 24px;
+}
+@media (max-width:1888px) {
+    .YT-Card-Component{
+        width: 48%;
+    }
+}
+@media (max-width:1440px){
+    .YT-Card-Component{
+        width: 327.5px;
+    }
+    .YT-Card-Component-Top{
+        height: 266px;
+        padding: 30px;
+    }
+    .YT-Card-Component-Bottom{
+        height: 91px;
+        padding: 20px 30px;
+    }
+    .YT-Testimonial-Card-Desc{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .YT-Testimonial-Card-Title{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+    .YT-Card-Component-Employee-Career :nth-child(1){
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 500;
+    }
+    .YT-Card-Component-Employee-Career :nth-child(2){
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .YT-Card-Component-Employee img{
+        width: 50px;
+    }
+    .YT-icon{
+        padding: 10px;
+    }
+    .YT-icon img{
+        width: 20px;
+    }
+}
+@media (max-width:420px){
+    .YT-Card-Component{
+        width: 338px;
+    }
+    .YT-Card-Component-Top{
+        height: 202px;
+        padding: 24px;
+    }
+    .YT-Card-Component-Bottom{
+        height: 77px;
+        padding: 16px 20px;
+    }
+    .YT-Testimonial-Card-Desc{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .YT-Testimonial-Card-Title{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        margin-bottom: 16px;
+    }
+    .YT-Card-Component-Employee-Career :nth-child(1){
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+    .YT-Card-Component-Employee-Career :nth-child(2){
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+    .YT-Card-Component-Employee img{
+        width: 40px;
+    }
+}

@@ -1,0 +1,52 @@
+.YT-OurWorks{
+    margin: 120px 50px;
+    background-color: var(--primary-color);
+}
+.YT-OurWorksButton{
+    width: 100%;
+    padding: 20px 16px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: var(--secondary-color);
+    border-radius: 12px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.YT-OurWorksButtonIcon{
+    padding: 14px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--buttonicon);
+    border-radius: 50%;
+}
+.YT-OurWorksButtonText{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: var(--roboto-mono-font);
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+@media(max-width:1440px){
+    .YT-OurWorks{
+        margin: 80px 40px;
+    }
+}
+@media(max-width:420px){
+    .YT-OurWorks{
+        margin: 50px 16px;
+    }
+}
+@media(max-width:895px){
+    .YT-OurWorks{
+        border: solid 2px var(--border-color);
+        padding: 10px;
+        border-radius: 24px;
+    }
+}
+@media(max-width:390px){
+    .YT-OurWorksButton{
+        display: flex;
+    }
+}

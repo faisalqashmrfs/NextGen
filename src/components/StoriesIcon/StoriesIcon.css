@@ -1,0 +1,41 @@
+.hm-StoreCard-icon{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid var(--bordericon) ;
+background-color: var(--border-color);
+border-radius: 12px;
+padding: 16px;
+}
+.hm-StoreCard-titelandicon{
+    display: flex;
+    align-items: center;
+    gap:10px ;
+}
+.hm-StoreCard-heading {
+    font-family:var(--roboto-font);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: var(--titles-color);
+    text-transform: uppercase;
+    
+}
+@media (max-width:1440px) {
+    .hm-StoreCard-icon{
+        border-radius: 10px;
+        padding: 14px;
+        }   
+        .hm-StoreCard-heading{
+            line-height: 36px;
+            font-size: 24px;
+            
+        }
+}
+@media (max-width:790px) {
+    .hm-StoreCard-heading{
+        line-height: 30px;
+        font-size: 20px;
+        
+    }
+}

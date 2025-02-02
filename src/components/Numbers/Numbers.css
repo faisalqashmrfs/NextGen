@@ -1,0 +1,170 @@
+.YT-NumbersSection {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--border-color);
+    margin: 20px 50px 0px 50px;
+}
+.YT-NumbersSectionButton{
+    width: 16.66%;
+    padding: 30px 20px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.YT-NumbersSectionButtonIcon{
+    border-radius: 50%; 
+    border:  1px solid var( --buttonicon );   
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.YT-NumbersSectionButtonText{
+    font-family: var(--roboto-font);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+/* About page classes */
+.YT-NumbersSectionAbout , .YT-NumbersSectionContact {
+    width: 32.94%;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 20px;
+}
+.YT-NumbersSectionAbout :nth-child(5){
+    display: none;
+}
+.YT-NumbersSectionButtonAbout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.YT-NumbersIconAbout{
+    border-radius: 50%; 
+    border:  1px solid #333333;   
+    background-color: var(--border-color);
+    padding: 14px;
+    display: flex;
+    align-items: center;
+}
+.YT-NumbersIconAbout img{
+    width: 24px;
+}
+/* Contact page classes */
+.YT-NumbersSectionContact {
+    width: 32.94%;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.YT-NumbersSectionButtonContact{
+    width:48.12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--border-color);
+    border-radius: 14px;
+}
+@media(max-width:1897px){
+    /* About page classes */
+    .YT-NumbersSectionAbout{
+        padding: 10px 10px 0px 10px;
+        gap: 10px;
+        border-radius: 16px;
+    }
+     /* Contact page classes */
+    .YT-NumbersSectionContact{
+        gap: 10px;
+        padding: 10px;
+    }
+}
+@media(max-width:1440px){
+    .YT-NumbersSection{
+        gap: 10px;
+        padding: 10px;
+        border-radius:16px;
+        margin: 16px 40px 0px 40px;
+    }
+    .YT-NumbersSectionButtonText{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .YT-NumbersSectionButtonIcon{
+        padding: 14px;
+        
+    }
+    .YT-NumbersSectionButtonIcon img{
+        width: 20px;
+    }
+    /* About page classes */
+    .YT-NumbersSectionButtonAbout{
+        margin: 40px 0px;
+    }
+    .YT-NumbersIconAbout img{
+        width: 20px;
+    }
+    .YT-NumbersIconAbout{
+        padding: 10px;
+    }
+}
+@media(max-width:1200px){
+    .YT-NumbersSection{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+    .YT-NumbersSectionButton{
+        width: 48%;
+    }
+    .YT-NumbersSectionAbout{
+        margin-top:16px ;
+    }
+}
+
+@media(max-width:1111px){
+    .YT-NumbersSectionAbout , .YT-NumbersSectionContact {
+        width: 100%;
+    }
+}
+@media(max-width:390px){
+    .YT-NumbersSection {
+        margin: 16px 16px 0px 16px;
+    }
+    .YT-NumbersSection :nth-child(5) ,  .YT-NumbersSectionContact :nth-child(5){
+        width: 100%;
+    }
+    .YT-NumbersSectionButton,.YT-NumbersSectionButtonContact{
+        width:100%;
+    }
+    .YT-NumbersSectionButtonText{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /* About page classes */
+    .YT-NumbersSectionButtonAbout{
+        margin: 10px 0px;
+        padding: 20px 16px;
+    }
+    /*  Contact page classes */
+    .YT-NumbersSectionButtonContact{
+        padding: 20px 16px;
+        background:none;
+    }
+}

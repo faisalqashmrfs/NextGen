@@ -1,0 +1,57 @@
+.YT-CareersRight{
+    width: 32.58%;
+    background-color: var(--secondary-color);
+    padding: 50px;
+    border-radius: 14px;
+    
+}
+.YT-CareersRight h3{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: var(--roboto-font);
+    text-transform: uppercase;
+    color: var(--titles-color);
+}
+.YT-CareersRight p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: var(--roboto-font);
+    color: var(--text-color);
+    margin: 20px 0px 50px 0px;
+}
+
+@media(max-width:1440px){
+    .YT-CareersRight{
+        padding: 40px;
+        border-radius: 12px;
+    }
+    .YT-CareersRight h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .YT-CareersRight p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media(max-width:1200px){
+    .YT-CareersRight{
+        width: 100%;
+
+    }
+}
+@media(max-width:390px){
+    .YT-CareersRight{
+        padding: 24px;
+    }
+    .YT-CareersRight h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .YT-CareersRight p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,18 @@
+.hm-ServiesCom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+@media (max-width:1440px) {
+    .hm-ServiesCom{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }    
+}
+@media (max-width:970px) {
+    .hm-ServiesCom{
+    display: none;
+    }   
+}
